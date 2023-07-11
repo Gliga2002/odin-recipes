@@ -1,0 +1,13 @@
+h1 {
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+li a{
+  text-decoration: none;
+  color:rgb(171, 122, 57)
+}
