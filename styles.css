@@ -1,13 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace
+}
+
+.container {
+  width: 1200px;
+  margin: 100px auto;
+}
+
 h1 {
+  text-align: center;
   font-size: 24px;
-  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 10px;
 }
 
 ul {
   list-style: none;
+  text-align: center;
 }
 
-li a{
+ul li {
+  margin-bottom: 5px;
+}
+
+ul li:last-child {
+  margin-bottom: 0px;
+}
+
+
+a:link, a:visited {
   text-decoration: none;
   color:rgb(171, 122, 57)
+}
+
+a:hover, a:active {
+ color:black;
 }
